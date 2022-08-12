@@ -3,8 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { ProductsComponent } from './products/products.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 
-const routes: Routes = [{path: 'products', component: ProductsComponent,},
-                          {path:'productdetails', component: ProductDetailsComponent,}];
+const routes: Routes = [
+  {path:'products', component: ProductsComponent,},
+  {path:'product-details', component: ProductDetailsComponent,}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
@@ -12,5 +13,6 @@ const routes: Routes = [{path: 'products', component: ProductsComponent,},
 })
 export class AppRoutingModule { }
 export const routingComponent = [ProductsComponent];
+
 
 

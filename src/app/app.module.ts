@@ -9,18 +9,39 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { NavbarComponent } from './navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
 
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ProductsComponent,
-    ProductDetailsComponent,
     NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    MatCardModule,
+    MatButtonModule,
+    MatGridListModule,
+    FlexLayoutModule,
+    MatToolbarModule,
+    MatIconModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
+    MatDividerModule
+
+   
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

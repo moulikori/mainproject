@@ -1,25 +1,11 @@
-.productbox
-{
-    padding: 10px 5px;
-    font-size: 18 px;
+.mat-grid-tile {
+  background: rgb(183, 193, 185);
+
 }
 
-.productbox img
-{
-    width: 33%;
-    height: 250px;
-    object-fit: cover;
-    border : 5px;
+.content {
+  padding: 20px;
 }
-.container
-{
-    background-color: rgb(166, 164, 162);
-}
-.buybtn
-{
-    color: rgb(243, 237, 237);
-    background-color: green;
-    padding: 10px 10px;
-    border-radius: 5px;
-    font-size: 18px;
-}
+
+
+
